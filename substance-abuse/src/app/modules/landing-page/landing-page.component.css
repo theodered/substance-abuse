@@ -1,0 +1,105 @@
+.pageContainer {
+    background-image: url('../../../assets/togetherness.jpg');
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    background-size: 100%;
+}
+
+
+@media screen and (max-width: 990px) {
+    
+    .headerInnerContainer {
+        display: none;
+    }
+}
+
+.main-container {
+    margin: 1px;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.main-container > .sideContainer {
+    flex: 0 0 80%;
+    text-align: left;
+    color: #fff;
+    margin: 150px 0 0 50px;
+}
+
+.main-container > .side-layout-bar {
+    flex: 0 0 20%;
+    color: #fff;
+    margin: 5px 15px 0;
+}
+
+.side-layout-bar-item {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    vertical-align: text-bottom;
+    cursor: pointer;
+    margin: 10px 10px 10px;
+    background-color: #007a80;
+}
+
+.side-layout-bar-item:hover {
+    width: 160px;
+    padding: 10px;
+    height: 60px;
+    opacity: 1;
+    transition-delay: 50ms;
+    margin: 0 5px;
+    -webkit-transition: width 50ms;
+    transition: width 50ms;
+    transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+}
+.pd-10 {
+    padding-top: 10px;
+}
+
+.no-pad {
+    padding: 0 !important;
+}
+
+.imgContainer {
+    flex: 0 0 auto;
+    margin-top: 10px;
+    border: 3px solid #66dcba;
+    border-radius: 10px;
+    text-align: center;
+    height: 1000px;
+    background-color: #fff;
+    display: none;
+    
+}
+
+.sz-U {
+ font-size: 26px;
+ margin: 2px;
+}
+
+.sz-D {
+    font-size: 26px;
+    margin: 2px;
+}
+
+.sz-I {
+    font-size: 10px;
+    margin: 4px;
+}
+
+.get-started-btn {
+    border-radius: 40px;
+    width: 100px;
+    color: white;
+    background-color: #007a80;
+    font-size: 10px;
+    height: 30px;
+    margin-top: 25px;
+    border: 1px solid #007a80;
+}

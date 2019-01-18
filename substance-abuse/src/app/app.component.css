@@ -1,0 +1,50 @@
+
+.headerContainer {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #007a80;
+    align-items: center;
+}
+
+.headerInnerContainer div {
+    font-size: 10px;
+    margin: 10px!important;
+    cursor: pointer;
+}
+
+.headerInnerContainer {
+    flex: 0 1 auto;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* justify-content: space-between; */
+    padding: 10px;
+}
+
+
+.userName > .avatar {
+    background: #66dcba;
+    font-size: 24px;
+    padding: 10px;
+    margin: 0 0 2px;
+    color: #000;
+}
+.userName {
+    flex: 0 0 20%;
+    font-size: 20px;
+    float: left;
+    padding: 20px 0 0 0;
+    color: #b8b0c0;
+}
+.homeLogo {
+    margin: 10px;
+    font-size: 24px;
+    padding: 20px 0 0 50px;
+    flex: 0 0 40%;
+    justify-content: flex-end;
+}

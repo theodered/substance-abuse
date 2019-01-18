@@ -1,0 +1,19 @@
+<div class="story-container">
+  <div class="row">
+    <div class="col-4" *ngFor="let story of stories;index as i">
+      <div class="" [ngStyle]="generateStyle(i)">
+        <p-card [style]="getBackgroundForCard(i)">
+          <p-header>
+            <div class="col-12">
+              <img class="img-container" src="{{story.image}}" alt="no pic">
+            </div>
+            <div class="col-12">{{story.header}}</div>
+          </p-header>
+          <p-footer>
+            {{story.content}}
+          </p-footer>
+        </p-card>
+      </div>
+    </div>
+  </div>
+</div>
