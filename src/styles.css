@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.ui-card-header	{
+    font-weight: 900;
+    padding: 10px;
+}
+
+.ui-card {
+    margin-bottom: 5px;
+}
